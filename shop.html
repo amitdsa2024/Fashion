@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <style>
+        body {
+            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .image-container {
+            position: relative;
+            margin: 10px;
+            background-color: #C0C0C0;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+            width: 300px;
+        }
+
+        .merged-container {
+            width: 90%;
+            margin: 0 auto;
+            background-color: #dcdcdc;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .label {
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .price-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+            color: #333;
+        }
+
+        .add-to-cart-button {
+            margin-top: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .add-to-cart-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Merged Row -->
+    <div class="image-row">
+        <div class="merged-container">
+            <a href="index.htm">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		ABOUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			<a href="where_to_buy.html">WHERE TO BUY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		BUY OINLINE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="signup.htm">SIGNUP</a></div>
+    </div>
+
+    <!-- Regular Rows -->
+    <div class="image-row">
+        <div class="image-container">
+            <img alt="Women's Casual Dress" height="382" src="2530_13653_mc_0768.jpg" width="284" />
+            <div class="price-tag">Price: ₹1500</div>
+            <div class="label">Women's Casual Dress</div>
+            <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+        <div class="image-container">
+            <img alt="Women's Hoodie" height="382" src="download.jpg" width="284" />
+            <div class="price-tag">Price: ₹800</div>
+            <div class="label">Women's Hoodie</div>
+            <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+        <div class="image-container">
+            <img alt="Women's Elegant Dress" height="389" src="mehrun.jpg" width="284" />
+            <div class="price-tag">Price: ₹1200</div>
+            <div class="label">Women's Elegant Dress</div>
+            <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+    </div>
+    <div class="image-row">
+        <div class="image-container">
+            <img alt="Men's Casual Outfit" height="382" src="men%20casual%20dress.jpg" width="284" />
+            <div class="price-tag">Price: ₹2000</div>
+            <div class="label">Men's Casual Outfit</div>
+            <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+        <div class="image-container">
+            <img alt="Men's Formal Suit" height="382" src="men%20suit.jpg" width="284" />
+            <div class="price-tag">Price: ₹1700</div>
+            <div class="label">Men's Formal Suit</div>
+            <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+        <div class="image-container">
+            <img alt="Men's Party Wear" height="382" src="OIP.jpg" width="284" />
+            <div class="price-tag">Price: ₹500</div>
+            <div class="label">Men's Party Wear</div>
+            <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+    </div>
+</body>
+
+</html>
